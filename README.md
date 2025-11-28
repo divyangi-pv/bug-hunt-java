@@ -58,4 +58,4 @@ Each file contains bugs waiting to be discovered and fixed!
 
 ## 📜 License
 
-MIT License - Feel free to use for learning!
+Feel free to use for learning!
