@@ -9,8 +9,7 @@ public class Calculator {
     }
     
     public int subtract(int a, int b) {
-        // BUG #1: Wrong operation
-        return a + b;
+        return a - b;
     }
     
     public int multiply(int a, int b) {
@@ -37,8 +36,7 @@ public class Calculator {
      * Calculate factorial of n (n!)
      */
     public int factorial(int n) {
-        // BUG #2: Wrong starting value for result
-        int result = 0;
+        int result = 1;
         for (int i = 1; i <= n; i++) {
             result *= i;
         }
